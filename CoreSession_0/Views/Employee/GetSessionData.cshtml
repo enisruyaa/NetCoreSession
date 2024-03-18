@@ -1,0 +1,6 @@
+﻿@using Newtonsoft.Json
+@{
+    Employee e = Context.Session.GetObject<Employee>("cagri");
+
+    <h1> Hoş Geldin Çalışan -> @e.FirstName  @e.LastName </h1>
+}

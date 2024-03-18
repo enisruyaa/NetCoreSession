@@ -1,0 +1,6 @@
+﻿@using Newtonsoft.Json
+@{
+    Category c = Context.Session.GetObject<Category>("cagri");
+
+    <h1> Elimize Gelen Seession -> @c.CategoryName </h1>
+}
